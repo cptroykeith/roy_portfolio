@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import ErrandsImg from '../public/assets/projects/errands.jpg';
+import MobiDocImg from '../public/assets/projects/mobidoc.jpg'
+import Yummy_RecipeImg from '../public/assets/projects/yummy_recipe.jpg'
+import MimiStoreImg from '../public/assets/projects/MimiStore.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -18,29 +18,29 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='Errands App'
-            backgroundImg={propertyImg}
+            backgroundImg={ErrandsImg}
             projectUrl='/Errands'
-            tech='React JS'
+            tech='Django'
           />
           <ProjectItem
-            title='Mobidoc App'
-            backgroundImg={cryptoImg}
-            projectUrl='/Mobidoc'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Yummy_Recipes App'
-            backgroundImg={netflixImg}
-            projectUrl='/Yummy_Recipes'
+            title='MobiDoc App'
+            backgroundImg={MobiDocImg}
+            projectUrl='/MobiDoc'
             tech='React JS'
 
           />
           <ProjectItem
-            title='mimiStore'
-            backgroundImg={twitchImg}
-            projectUrl='/mimiStore'
-            tech='Next JS'
+            title='Yummy_Recipe App'
+            backgroundImg={Yummy_RecipeImg}
+            projectUrl='/Yummy_Recipe'
+            tech='Flask'
+
+          />
+          <ProjectItem
+            title='MimiStore'
+            backgroundImg={MimiStoreImg}
+            projectUrl='/MimiStore'
+            tech='HTML'
 
           />
         </div>

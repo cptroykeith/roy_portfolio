@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+import ErrandsImg from '../public/assets/projects/errands.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const property = () => {
+const Errands = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,38 +13,38 @@ const property = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={ErrandsImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Errands</h2>
+          <h3>Python / Django / Javascript / Css / Postgres / Railway</h3>
         </div>
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <p>Project</p>
+          <p>Errands</p>
           <h2>Overview</h2>
-          <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
-          </p>
+          <p> Errands app is a software application designed to help users keep track of tasks and activities they need to complete. The app typically features a user-friendly interface that allows users to create, manage, and organize their tasks easily.</p>
+
+            <p> Upon opening the app, the user is typically presented with a dashboard or home screen that displays their upcoming tasks, any pending tasks, and any completed tasks. Users can add new tasks by typing a description of the task, assigning a due date or deadline, and categorizing the task by project or priority.</p>
+
+            <p> The app usually allows users to organize their tasks into different categories, such as personal, work, shopping, or errands. Users can also sort their tasks by due date, priority level, or other customizable criteria.</p>
+
+            <p> Errands apps may also feature collaboration and sharing options, allowing users to share their tasks with others, assign tasks to team members, and track progress on group projects.</p>
+
+            <p> Overall, a todo list app is a useful tool for managing time, staying organized, and increasing productivity, both in personal and professional settings.</p>
+
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/cptroykeith/Errands'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='https://errands-production.up.railway.app/auth/login?next=/'
             target='_blank'
             rel='noreferrer'
           >
@@ -56,22 +56,22 @@ const property = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Python
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Django
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Css
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
+                <RiRadioButtonFill className='pr-1' /> Postgres
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+                <RiRadioButtonFill className='pr-1' /> Railway
               </p>
             </div>
           </div>
@@ -84,4 +84,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default Errands;
