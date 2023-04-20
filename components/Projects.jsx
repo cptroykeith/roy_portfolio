@@ -4,7 +4,7 @@ import React from 'react';
 import ErrandsImg from '../public/assets/projects/errands.jpg';
 import MobiDocImg from '../public/assets/projects/mobidoc.jpg'
 import Yummy_RecipeImg from '../public/assets/projects/yummy_recipe.jpg'
-import MimiStoreImg from '../public/assets/projects/MimiStore.jpg'
+import MimiStoreImg from '../public/assets/projects/mimiStore.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
