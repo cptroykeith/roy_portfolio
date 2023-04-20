@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import MobiDocImg from '../public/assets/projects/MobiDoc.jpg';
+import MobiDocImg from '../public/assets/projects/mobidoc.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

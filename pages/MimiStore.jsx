@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import MimiStoreImg from '../public/assets/projects/MimiStore.jpg';
+import MimiStoreImg from '../public/assets/projects/mimiStore.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

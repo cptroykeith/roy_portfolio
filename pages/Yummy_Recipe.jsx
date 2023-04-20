@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Yummy_RecipeImg from '../public/assets/projects/Yummy_Recipe.jpg';
+import Yummy_RecipeImg from '../public/assets/projects/yummy_recipe.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
