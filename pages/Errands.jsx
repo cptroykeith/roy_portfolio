@@ -28,13 +28,13 @@ const Errands = () => {
           <h2>Overview</h2>
           <p> Errands app is a software application designed to help users keep track of tasks and activities they need to complete. The app typically features a user-friendly interface that allows users to create, manage, and organize their tasks easily.</p>
 
-            <p> Upon opening the app, the user is typically presented with a dashboard or home screen that displays their upcoming tasks, any pending tasks, and any completed tasks. Users can add new tasks by typing a description of the task, assigning a due date or deadline, and categorizing the task by project or priority.</p>
+            <p> Upon opening the app, the user is typically presented with a dashboard or home screen that displays their upcoming tasks, any pending tasks, and any completed tasks. Users can add new tasks by typing a description of the task, assigning a due date or deadline and categorizing the task by project or priority.</p>
 
             <p> The app usually allows users to organize their tasks into different categories, such as personal, work, shopping, or errands. Users can also sort their tasks by due date, priority level, or other customizable criteria.</p>
 
             <p> Errands apps may also feature collaboration and sharing options, allowing users to share their tasks with others, assign tasks to team members, and track progress on group projects.</p>
 
-            <p> Overall, a todo list app is a useful tool for managing time, staying organized, and increasing productivity, both in personal and professional settings.</p>
+            <p> Overall, a to-do list app is a useful tool for managing time, staying organized, and increasing productivity, both in personal and professional settings.</p>
 
           <a
             href='https://github.com/cptroykeith/Errands'

@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-          Passionate and driven software developer with over a year of experience building full-stack web applications using Python, Flask, Django, JS, React, Next.js, PostgreSQL, HTML, and CSS. With a solid foundation in software development, I possess strong problem-solving and critical thinking skills that enable me to create clean and efficient code. I am always eager to learn new technologies and improve my skills while leveraging my expertise to deliver high-quality products. Looking for opportunities to work with dynamic teams and make meaningful contributions to the tech industry.
+          Passionate and driven software developer with over a year of experience building full-stack web applications using Python, Flask, Django, JS, React, Next.js, PostgreSQL, HTML, and CSS. i have a solid foundation in software development and possess strong problem-solving and critical thinking skills that enable me to create clean and efficient code. I am always eager to learn new technologies and improve my skills while leveraging my expertise to deliver high-quality products. Looking for opportunities to work with dynamic teams and make meaningful contributions to the tech industry.
           </p>
           <Link href='/#projects'>
             

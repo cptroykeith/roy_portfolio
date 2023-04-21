@@ -32,7 +32,7 @@ const MimiStore = () => {
 
             <p>To make the shopping experience more personalized, the app may offer recommendations based on a user's browsing and purchase history. It may also provide user reviews and ratings for each product, helping shoppers make informed decisions about their purchases.</p>
 
-            <p>Overall, a web app that offers clothing for children, women, and men is a convenient and accessible way to shop for a wide range of clothing items from the comfort of one's home or office.</p>
+            <p>Overall, mimiStore is web app that offers clothing for children, women, and men is a convenient and accessible way to shop for a wide range of clothing items from the comfort of one's home or office.</p>
           <a
             href='/'
             target='_blank'
