@@ -144,7 +144,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href='/https://docs.google.com/document/d/e/2PACX-1vSVRQtcojonaY2Lc_gN_3WTZQQWVHwPa4FDNtch1o1d2RfK-hgVYLYyv56OrxytWRXQGG7rkJv95HZX/pub'>
+              <Link href='https://docs.google.com/document/d/e/2PACX-1vSVRQtcojonaY2Lc_gN_3WTZQQWVHwPa4FDNtch1o1d2RfK-hgVYLYyv56OrxytWRXQGG7rkJv95HZX/pub'>
                 <li onClick={() => setNav(false)} className='py-4 text-sm'>
                   Resume
                 </li>
