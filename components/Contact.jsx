@@ -59,7 +59,7 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume' legacyBehavior>
+                  <Link href='https://docs.google.com/document/d/e/2PACX-1vSVRQtcojonaY2Lc_gN_3WTZQQWVHwPa4FDNtch1o1d2RfK-hgVYLYyv56OrxytWRXQGG7rkJv95HZX/pub' legacyBehavior>
                     <a>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
