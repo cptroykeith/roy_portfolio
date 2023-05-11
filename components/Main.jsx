@@ -43,17 +43,14 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href='/resume'>
             <a
-              href='https://docs.google.com/document/d/1Qyh2ub5qOee6hHS7xbpamPshAK2GUyKocZUHSIbH2s8/edit?usp=sharing'
+              href='https://roy-portfolio-git-main-cptroykeith.vercel.app'
               target='_blank'
               rel='noreferrer'
-            >
+            ></a>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
-              </a>
-            </Link>
           </div>
         </div>
       </div>
