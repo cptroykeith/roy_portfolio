@@ -186,7 +186,7 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href='https://docs.google.com/document/d/1Qyh2ub5qOee6hHS7xbpamPshAK2GUyKocZUHSIbH2s8/edit?usp=sharing' legacyBehavior>
+                <Link href='https://docs.google.com/document/d/e/2PACX-1vSVRQtcojonaY2Lc_gN_3WTZQQWVHwPa4FDNtch1o1d2RfK-hgVYLYyv56OrxytWRXQGG7rkJv95HZX/pub'>
                   <div
                     onClick={() => setNav(!nav)}
                     className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
